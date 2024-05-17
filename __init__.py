@@ -1,6 +1,6 @@
 import logging
 import os
-from dnd_translator import DndTranslator
+from src.dnd_translator import DndTranslator
 
 if __name__ == "__main__":
     ISDEV = os.environ.get("ISDEV", "true")
